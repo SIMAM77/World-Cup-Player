@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+*{
+	padding:0; 
+	margin:0;
+}
+
+body {
+	background: url("../img-layout/grass.jpg") no-repeat;
+	background-size: cover;
+	font-family: arial;
+}
+
+header{
+	width:60%;
+	margin:auto;
+	
+}
+
+.logo{
+	width:50%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+main {
+	
+	width:80%;
+	height:550px;
+	background: #eee;
+	margin:50px auto;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 5px black;
+	
+}
+
+h2 {
+	
+	padding:20px;
+	font-size: 30px;
+}
+
+li {
+	margin-top:50px;
+	margin-left:5%;
+	width:80%;
+	border-bottom: 2px solid grey;
+
+}
+
+.cover{
+	
+	float:left;
+	width:39%;
+	height:79%;
+	border-right: 2px solid grey;
+	border-bottom: 2px solid grey;
+
+
+}
+
+.playlist{
+	
+	float:left;
+	width:60%;
+	height:79%;
+	border-bottom: 2px solid grey;
+
+}
+
+.controleur{
+	
+	float:left;
+	width:49%;
+	height:20%;
+	margin-right:25%;
+	margin-left:25%;
+	
+
+}
+
+.conteneur{
+	margin :5%;
+	width: 90%;
+	height: 90%;
+}
+
+.conteneur_p{
+	background:white;
+	margin :5%;
+	width: 90%;
+	height: 90%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px black inset;
+}
+
+.jaquette {
+	clear:both;
+	display: block;
+	max-width:100%;
+	max-height: 100%;
+	box-shadow: 5px 5px 5px black;
+}
+
+
+
+.barre {
+	background: red;
+	width: 90%;
+	height:10px;
+	border-radius: 5px;
+}
+
+.progression {
+	background: black;
+	margin-top:20px;
+	width:100%;
+	height:10px;
+	border-radius: 5px;
+}
+
+.bouton {
+	float:left;
+	margin-top:10px;
+	margin-left:5%;
+	margin-right:5%;
+	width: 10%;
+}
+
